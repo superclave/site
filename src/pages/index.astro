@@ -3,14 +3,136 @@
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Superclave</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Superclave</h1>
+        <p>
+          <em>A new internet, private by design, for those who deserve it</em>
+        </p>
+      </header>
+      <p>
+        In a digital world overwhelmed by noise, spam, and diluted value,
+        Superclave stands apart as a private, decentralized overlay network
+        dedicated to elevating the quality and integrity of online interactions.
+        Built upon principles of trust, accountability, and collective
+        responsibility, Superclave offers a distinctive alternative to the
+        increasingly impersonal and cluttered global internet.
+      </p>
+      <p>
+        At the heart of Superclave lies a robust, member-driven governance
+        model. Membership is a privilege, carefully balanced between genuine
+        intent expressed through personal statements and meaningful financial
+        commitment. Applications are transparently reviewed by existing
+        community members whose voting power is proportional to their financial
+        stakes. This ensures that Superclave remains populated by engaged,
+        conscientious participants, dedicated to maintaining the network’s core
+        values.
+      </p>
+      <p>
+        Financial contributions, secured transparently via blockchain
+        technology, serve dual purposes. Firstly, they discourage casual or
+        low-value membership, effectively mitigating spam and enhancing the
+        overall quality of engagement. Secondly, these contributions form the
+        Aerarium—a communal fund from which members, whose activities
+        consistently enrich the network, are rewarded. This equitable
+        redistribution fosters an environment of proactive contribution and
+        mutual appreciation.
+      </p>
+      <p>
+        Superclave is not merely an exclusive forum; it functions as a dynamic,
+        general-purpose network where admitted members freely host, discover,
+        and interact with diverse services. Central to the network is the
+        Curia—a governance hub where vital decisions around membership
+        approvals, reward allocations, and service discovery take place.
+      </p>
+      <p>
+        By placing power firmly in the hands of its committed members,
+        Superclave redefines digital community interaction. Our mission is
+        clear: to cultivate a purposeful and rewarding online experience, free
+        from spam and noise, driven by quality, and sustained by collective
+        stewardship.
+      </p>
+      <p>As an enclave lies within, the Superclave sits above.</p>
+      <p><a href="#">Get in touch</a></p>
+    </main>
+  </body>
 </html>
+
+<style>
+  @import url("https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/serif.css");
+
+  @font-face {
+    font-family: "Instrument Serif";
+    src: url("/font/Instrument_Serif/InstrumentSerif-Regular.ttf")
+      format("truetype");
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Instrument Serif";
+    src: url("/font/Instrument_Serif/InstrumentSerif-Italic.ttf")
+      format("truetype");
+    font-style: italic;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    @media screen and (min-width: 650px) {
+      font-size: 18px;
+    }
+  }
+
+  main {
+    max-width: 64ch;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: justify;
+    hyphens: auto;
+    font-family: "Computer Modern Serif", "Times New Roman", serif;
+    line-height: 1.5;
+
+    @media screen and (min-width: 650px) {
+      margin: 5rem auto;
+    }
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 2em;
+
+    p {
+      margin-top: 0;
+    }
+  }
+
+  h1 {
+    font-family: "Instrument Serif", serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  a {
+    color: black;
+  }
+</style>
